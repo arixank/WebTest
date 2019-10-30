@@ -1,0 +1,180 @@
+body{
+    font: 1.5/15px/ Arial,Helvetica,sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Global */
+@font-face{
+    font-family: ka;
+    src: url('../fonts/kalam.ttf')
+}
+@font-face{
+    font-family: ca;
+    src: url('../fonts/Caveat-Bold.ttf');
+}
+@font-face{
+    font-family: Facon;
+    font-size: 14px;
+    src: url('../fonts/Facon.ttf');
+}
+@font-face{
+    font-family: Thor;
+    src: url('../fonts/Thor.ttf');
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+    
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.button_1{
+    height: 30px;
+    background: orangered;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 0;
+    color: white;
+}
+.dark{
+   
+    padding: 15px;
+    background: #1c2124;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10;
+}
+/* Header. **/
+header{
+    background: linear-gradient(to right,#1c2124,#2C3E50,#000000);
+    color: antiquewhite;
+    padding-top: 25px;
+    min-height: 70px;
+    border-bottom: orangered 3px solid;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+header li{
+    float: left;
+    text-align: center;
+    display: block;
+    padding: 0 20px 0 20px;
+}
+header #branding {
+    font-family: Facon;
+    font-size: 15px;
+    float : left;
+}
+header #branding h1{
+    margin: 0;
+}
+header #branding nav ul li a{
+    float: right;
+    margin-top: 10px;
+    margin-left: 40%;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header .highlight, header .current a{
+    color: red;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: orangered;
+    font-weight: bold;
+}
+
+nav ul li a{
+    float: left;
+    font-family: ka;
+    font-size: 16px;
+}
+h3{
+    font-family: Thor;
+}
+/* Showcase */
+#showcase{
+    min-height: 400px;
+    background: url('../images/len.png')no-repeat 0 -200px;
+    text-align: center;
+    color: white;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+#showcase p{
+    font-size: 20px;
+}
+/* Subscription */
+#news_letter{
+    padding: 10px;
+    color: white;
+    background: linear-gradient(to right,#1c2124,#2C3E50,#000000);
+}
+#news_letter h1{
+    float: left;
+    text-decoration-line: unset;
+}
+#news_letter form{
+    float: right;
+    margin-top: 30px;
+}
+#news_letter input[type = "email"]
+{
+    padding: 4px;
+    height: 25px;
+    width: 300px;
+}
+
+/* Boxes */
+#boxes{
+    margin-top: 20px; 
+}
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+#boxes .box img{
+    width: 50px;
+}
+/*sidebar*/
+aside#sidesbar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+/* Article */
+article#main-col{
+    font-family: ca;
+    font-size: 16px;
+    float: left;
+    width: 60%;
+}
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    background: linear-gradient(to left,#EC9F05,#FF4E00,orangered);
+    color: white;
+    text-align: center;
+}
